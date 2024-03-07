@@ -20,7 +20,7 @@ export const head: DocumentHead = {
   title: "zorglux",
   meta: [
     {
-      name: "Zorglux",
+      name: "description",
       content: "Avis aux Zorglux, Êtres Supérieurs !",
     },
   ],
