@@ -1,0 +1,39 @@
+version: "3.7"
+services:
+  installer:
+    image: node:18.19.0-alpine
+    volumes:
+      - ./:/home/node/zorglux
+    environment:
+      npm_config_cache: /home/node/cache
+    working_dir: /home/node/zorglux
+    user: 1000:1000
+    command: npm i
+
+  builder:
+    image: node:18.19.0-alpine
+    volumes:
+      - ./:/home/node/zorglux
+    environment:
+      npm_config_cache: /home/node/cache
+    working_dir: /home/node/zorglux
+    user: 1000:1000
+    command: npm run build
+    depends_on:
+      installer:
+        condition: service_completed_successfully
+  
+  server:
+    image: node:18.19.0-alpine
+    volumes:
+      - ./:/home/node/zorglux
+    environment:
+      npm_config_cache: /home/node/cache
+    working_dir: /home/node/zorglux
+    user: 1000:1000
+    command: npm run serve
+    ports:
+      - 7094:7094
+    depends_on:
+      builder:
+        condition: service_completed_successfully
