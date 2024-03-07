@@ -5,7 +5,7 @@ export default component$(() => {
   return (
     <main class="min-h-screen flex justify-center items-center">
       <article class="relative max-w-[550px] mt-6 mx-auto p-6 text-justify bg-white shadow-2xl before:absolute before:top-1 before:-left-1 before:-z-10 before:content-[''] before:w-full before:h-[98%] before:bg-[#fafafa] before:shadow-2xl before:-rotate-3 after:absolute after:top-1 after:-right-1 after:-z-10 after:content-[''] after:w-full after:h-[98%] after:bg-[#f6f6f6] after:shadow-2xl after:rotate-1">
-        <h1 class="mb-8 text-4xl">Avis aux <strong>Zorglux</strong>,<br />Êtres Supérieurs !</h1>
+        <h1 class="mb-8 text-4xl">Avis au peuple <strong>Zorglux</strong>,<br />Êtres Supérieurs !</h1>
         <p>
           Chers compatriotes <strong>Zorglux</strong>, glorieux membres de la race la plus évoluée de tout l'univers connu.
           Il est temps de nous unir et de proclamer notre grandeur incontestable devant ces misérables créatures qui osent vagabonder dans notre espace sacré.
@@ -39,7 +39,7 @@ export const head: DocumentHead = {
   meta: [
     {
       name: "description",
-      content: "Avis aux Zorglux, Êtres Supérieurs !",
+      content: "Avis au peuple Zorglux, Êtres Supérieurs !",
     },
   ],
 };
