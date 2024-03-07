@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.twinkling {
+    animation: move-twink-back 200s linear infinite;
+}
+
+.clouds {
+    animation: move-clouds-back 200s linear infinite;
+}
+
+@keyframes move-twink-back {
+  from {
+        background-position: 0 0;
+  }
+  to {
+        background-position: -10000px 5000px;
+  }
+}
+
+@keyframes move-clouds-back {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 10000px 0;
+    }
+  }
