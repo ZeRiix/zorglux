@@ -1,6 +1,5 @@
 import { $, component$, useSignal } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
-import { s } from "vite/dist/node/types.d-AKzkD8vd";
 
 export default component$(() => {
   const startSection = useSignal<Element>();
@@ -42,7 +41,7 @@ export default component$(() => {
           <source src="https://s.cdpn.io/1202/Star_Wars_original_opening_crawl_1977.mp3" type="audio/mpeg" />
         </audio>
 
-        <button class="quit">Quitter</button>
+        <button class="quit" onClick$={stop} ref={quitButton}>Quitter</button>
 
         <section onClick$={start} ref={startSection} class={["start", !started.value ? "block" : "hidden"]}>
           <p>
@@ -62,7 +61,7 @@ export default component$(() => {
           </section>
 
           <section class="titles">
-            <div contenteditable="true" spellcheck="false">
+            <div>
               <p>
                 Dans les confins de l'espace, au sein de la constellation éclatante de Zor'Gan, se trouve le
                 berceau des Zorglux, une race évoluée dont la grandeur transcende les frontières du cosmos.
