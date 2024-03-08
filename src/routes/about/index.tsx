@@ -64,7 +64,7 @@ export default component$(() => {
             <div>
               <p>
                 Dans les confins de l'espace, au sein de la constellation éclatante de Zor'Gan, se trouve le
-                berceau des Zorglux, une race évoluée dont la grandeur transcende les frontières du cosmos.
+                berceau des Zorglux, un peuple évoluée dont la grandeur transcende les frontières du cosmos.
               </p>
               <p>
                 Depuis les premiers instants de leur histoire, ils ont émergé comme les gardiens de la

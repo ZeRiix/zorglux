@@ -1,4 +1,4 @@
-import { component$,  } from "@builder.io/qwik";
+import { component$, } from "@builder.io/qwik";
 import { Link } from '@builder.io/qwik-city';
 
 export default component$(() => {
@@ -15,7 +15,7 @@ export default component$(() => {
           </li>
 
           <li class="mx-4">
-            <Link href="/code-of-conduct" class="hover:text-blue transition-colors">Code de conduite</Link>
+            <Link href="/code-of-conduct" class="hover:text-blue transition-colors">Être un bon <strong>Zorglux</strong></Link>
           </li>
         </ul>
       </nav>
