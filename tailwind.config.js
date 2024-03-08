@@ -13,7 +13,7 @@ export default {
         skyblue: "#4bd5ee",
         darkwhite: "#f4f4f9",
         yellow: "#ffd700"
-      }
+      },
     },
   },
   plugins: [],

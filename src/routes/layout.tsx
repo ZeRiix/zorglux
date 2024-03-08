@@ -24,7 +24,7 @@ export default component$(() => {
         <div class="clouds absolute -z-20 w-full h-full bg-[url('https://i.imgur.com/mHbScrQ.png')] bg-repeat bg-center"></div>
       </div>
       <Header />
-      <main class="min-h-screen flex justify-center items-center">
+      <main class="min-h-screen flex flex-col items-center pt-8">
         <Slot />
       </main>
       <Footer />
