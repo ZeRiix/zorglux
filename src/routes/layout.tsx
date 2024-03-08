@@ -19,9 +19,9 @@ export default component$(() => {
   return (
     <div class="relative">
       <div class="space absolute -z-50 w-full h-full bg-black">
-        <div class="stars absolute -z-40 w-full h-full bg-[url('https://i.imgur.com/YKY28eT.png')] bg-repeat bg-center"></div>
-        <div class="twinkling absolute -z-30 w-full h-full bg-[url('https://i.imgur.com/XYMF4ca.png')] bg-repeat bg-center"></div>
-        <div class="clouds absolute -z-20 w-full h-full bg-[url('https://i.imgur.com/mHbScrQ.png')] bg-repeat bg-center"></div>
+        <div class="stars absolute -z-40 w-full h-full bg-[url('/public/images/stars.webp')] bg-repeat bg-center"></div>
+        <div class="twinkling absolute -z-30 w-full h-full bg-[url('/public/images/twinkling.webp')] bg-repeat bg-center"></div>
+        <div class="clouds absolute -z-20 w-full h-full bg-[url('/public/images/clouds.webp')] bg-repeat bg-center"></div>
       </div>
       <Header />
       <main class="py-12 min-h-screen flex flex-col items-center">

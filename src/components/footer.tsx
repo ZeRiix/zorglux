@@ -3,7 +3,7 @@ import { Link } from '@builder.io/qwik-city';
 
 export default component$(() => {
   return (
-    <header class="h-60 flex justify-center items-center bg-darkerblue">
+    <footer class="h-60 flex justify-center items-center bg-darkerblue">
       <nav>
         <ul class="h-full flex justify-center items-center text-white">
           <li class="mx-4">
@@ -19,6 +19,6 @@ export default component$(() => {
           </li>
         </ul>
       </nav>
-    </header>
+    </footer>
   );
 });
