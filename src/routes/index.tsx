@@ -38,11 +38,11 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: "zorglux",
+  title: "Zorglux",
   meta: [
     {
       name: "description",
-      content: "Avis au peuple Zorglux, Êtres Supérieurs !",
+      content: "Gloire au peuple Zorglux !",
     },
   ],
 };
