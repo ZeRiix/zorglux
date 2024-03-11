@@ -6,7 +6,7 @@
     <title>@yield('title')</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
-    <body>
+    <body class="bg-beige">
         @yield('layout')
     </body>
 </html>
