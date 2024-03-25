@@ -8,10 +8,10 @@ export default component$(() => {
     <header class="relative h-24 px-6 py-4 flex justify-between items-center w-full bg-dark border-y border-grey">
       <CornerBloc positionX="left-0" positionY="top-0" />
       <CornerBloc positionX="right-0" positionY="top-0" />
-      <div>
+      <Link prefetch replaceState href="/">
         <h1 class="text-4xl text-white tracking-[4px]"><strong>Zorglux</strong></h1>
         <p class="mt-1 text-xs text-grey tracking-[10px]">Peuple surpême</p>
-      </div>
+      </Link>
       <nav>
         <ul class="h-full flex justify-center items-center text-grey">
           <li class="mx-4">
