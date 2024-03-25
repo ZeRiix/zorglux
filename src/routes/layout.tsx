@@ -19,9 +19,9 @@ export default component$(() => {
   return (
     <div class="relative overflow-hidden">
       <div class="space absolute -z-50 w-full h-full bg-black">
-        <div class="stars absolute -z-40 w-full h-full bg-[url('/space/images/stars.webp')] bg-repeat bg-center"></div>
-        <div class="twinkling absolute -z-30 w-full h-full bg-[url('/space/images/twinkling.webp')] bg-repeat bg-center"></div>
-        <div class="clouds absolute -z-20 w-full h-full bg-[url('/space/images/clouds.webp')] bg-repeat bg-center"></div>
+        <div class="stars absolute -z-40 w-full h-full bg-[url('/images/space/stars.webp')] bg-repeat bg-center"></div>
+        <div class="twinkling absolute -z-30 w-full h-full bg-[url('/images/space/twinkling.webp')] bg-repeat bg-center"></div>
+        <div class="clouds absolute -z-20 w-full h-full bg-[url('/images/space/clouds.webp')] bg-repeat bg-center"></div>
       </div>
       <div class="p-2">
         <Header />
