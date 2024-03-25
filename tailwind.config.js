@@ -3,6 +3,9 @@ export default {
   content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
   theme: {
     extend: {
+      screens: {
+        xmd: "800px",
+      },
       minHeight: {
         "screen-hf": "calc(100vh - (0.5rem * 2) - 6rem - 15rem)",
       },
