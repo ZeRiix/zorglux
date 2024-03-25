@@ -4,7 +4,6 @@ export default {
   theme: {
     extend: {
       minHeight: {
-        // calc 100vh - (0.5rem * 2) - 6rem - 15rem
         "screen-hf": "calc(100vh - (0.5rem * 2) - 6rem - 15rem)",
       },
       fontFamily: {
