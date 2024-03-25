@@ -40,11 +40,11 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: "Zorglux",
+  title: "Zorglux - Le peuple suprême",
   meta: [
     {
       name: "description",
-      content: "Gloire au peuple Zorglux !",
+      content: "Site officiel des Zorglux, peuple interstellaire dominant et avancé. Explorez notre civilisation éblouissante, nos réalisations technologiques et notre histoire glorieuse.",
     },
   ],
 };

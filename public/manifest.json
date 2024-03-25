@@ -1,9 +1,22 @@
 {
   "$schema": "https://json.schemastore.org/web-manifest-combined.json",
-  "name": "qwik-project-name",
-  "short_name": "Welcome to Qwik",
+  "name": "Zorglux - Le peuple suprême",
+  "short_name": "Zorglux suprême",
   "start_url": ".",
-  "display": "standalone",
-  "background_color": "#fff",
-  "description": "A Qwik project app."
+  "description": "Site officiel des Zorglux, peuple interstellaire dominant et avancé. Explorez notre civilisation éblouissante, nos réalisations technologiques et notre histoire glorieuse.",
+  "icons": [
+    {
+      "src": "/images/favicons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/favicons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#ffd700",
+  "background_color": "#ffd700",
+  "display": "standalone"
 }

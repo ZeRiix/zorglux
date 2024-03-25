@@ -75,7 +75,7 @@ export const head: DocumentHead = {
     meta: [
         {
             name: "description",
-            content: "Comment être un bon Zorglux ?",
+            content: "Le code de conduite des Zorglux pour l'excellence suprême.",
         },
     ],
 };
