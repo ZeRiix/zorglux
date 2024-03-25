@@ -9,7 +9,7 @@ export default component$(() => {
       <CornerBloc positionX="left-0" positionY="top-0" />
       <CornerBloc positionX="right-0" positionY="top-0" />
       <nav>
-        <ul class="h-full flex justify-center items-center text-grey">
+        <ul class="h-full flex flex-wrap xmd:flex-nowrap justify-start xmd:justify-center items-center text-grey">
           <li class="mx-4">
             <Link href="/" class="tracking-[4px] hover:text-blue transition-colors">Accueil</Link>
           </li>
@@ -19,7 +19,7 @@ export default component$(() => {
           </li>
 
           <li class="mx-4">
-            <Link href="/code-of-conduct" class="tracking-[4px] hover:text-blue transition-colors">Être un bon <strong>Zorglux</strong></Link>
+            <Link href="/code-of-conduct" class="tracking-[4px] hover:text-blue transition-colors">Être un&nbsp;bon <strong>Zorglux</strong></Link>
           </li>
         </ul>
       </nav>

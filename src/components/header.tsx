@@ -19,11 +19,11 @@ export default component$(() => {
           </li>
 
           <li class="mx-4">
-            <Link prefetch replaceState href="/about" class="tracking-[4px] hover:text-blue transition-colors">A propos</Link>
+            <Link prefetch replaceState href="/about" class="tracking-[4px] hover:text-blue transition-colors">À propos</Link>
           </li>
 
           <li class="mx-4">
-            <Link href="/code-of-conduct" class="tracking-[4px] text-center xmd:text-left hover:text-blue transition-colors">Être un bon&nbsp;<strong>Zorglux</strong></Link>
+            <Link href="/code-of-conduct" class="tracking-[4px] text-center xmd:text-left hover:text-blue transition-colors">Être un&nbsp;bon <strong>Zorglux</strong></Link>
           </li>
         </ul>
       </nav>
