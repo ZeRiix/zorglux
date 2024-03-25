@@ -17,7 +17,7 @@ export const RouterHead = component$(() => {
       <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png" />
       <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png" />
       <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png" />
-      <link rel="mask-icon" href="/images/favicons/safari-pinned-tab.svg" color="#ffffff" />
+      <link rel="mask-icon" href="/images/favicons/safari-pinned-tab.svg" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta name="description" content={head.meta.find(m => m.name === 'description')?.content} />
       <meta name="keywords" content="Zorglux" />
