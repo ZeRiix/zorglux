@@ -3,12 +3,11 @@ import type { DocumentHead } from "@builder.io/qwik-city";
 
 export default component$(() => {
   return (
-    <section class="h-full flex grow justify-center items-center">
-      <article class=" max-w-[90%] lg:max-w-[70%] flex flex-col items-center">
-        <h1 class="mb-10 text-5xl text-center text-yellow">
-          Avis au peuple <strong>Zorglux</strong>, Êtres Supérieurs !
-        </h1>
-
+    <section class="max-w-7xl h-full flex grow flex-col justify-center items-center">
+      <h1 class="mb-10 text-5xl text-center text-yellow">
+        Avis au peuple <strong>Zorglux</strong>, Êtres Supérieurs !
+      </h1>
+      <article class="flex flex-col items-center">
         <div class="max-w-[90%] lg:max-w-[70%] text-skyblue">
           <p>
             Chers compatriotes <strong class="text-yellow">Zorglux</strong>, glorieux membres du peuple le plus évoluée de tout l'univers connu.

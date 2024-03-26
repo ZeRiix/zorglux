@@ -21,6 +21,10 @@ export default component$(() => {
           <li class="mx-4">
             <Link href="/code-of-conduct" class="tracking-[4px] hover:text-blue transition-colors">Être un&nbsp;bon <strong>Zorglux</strong></Link>
           </li>
+
+          <li class="mx-4">
+            <Link href="/embassy" class="tracking-[4px] hover:text-blue transition-colors">Ambassade</Link>
+          </li>
         </ul>
       </nav>
       <CornerBloc positionX="left-0" positionY="bottom-0" />
