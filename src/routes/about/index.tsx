@@ -29,11 +29,12 @@ export default component$(() => {
 
           <section onClick$={start} ref={startSection} class={["start", !started.value ? "block" : "hidden"]}>
             <p>
-              Cliquer pour lancer
-              <br />
-              <span>Il y a bien longtemps, dans une galaxie
+              <span>
+                Il y a bien longtemps, dans une galaxie
                 lointaine, très lointaine....
               </span>
+              <br />
+              Cliquer pour lancer
               <br />
             </p>
           </section>
@@ -86,11 +87,11 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: "A propos",
+  title: "Zorglux - À propos de nous",
   meta: [
     {
       name: "description",
-      content: "Tous savoir des Zorglux.",
+      content: "Tous savoir sur notre grand peuple Zorglux et notre histoire.",
     },
   ],
 };

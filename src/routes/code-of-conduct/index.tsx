@@ -9,7 +9,7 @@ export default component$(() => {
                     Code de Conduite <strong>Zorglux</strong> pour&nbsp;l'Excellence Suprême
                 </h1>
 
-                <ul class="flex flex-col gap-5 list-decimal max-w-[80%] items-center text-skyblue">
+                <ul class="flex flex-col gap-4 list-decimal max-w-[80%] items-center text-skyblue">
                     <li class="max-w-[80%]">
                         Honore ton peuple : En tant que <strong class="text-yellow">Zorglux</strong>, ta loyauté envers notre peuple
                         et notre culture doit être inébranlable. Rejette toute influence étrangère
@@ -53,15 +53,19 @@ export default component$(() => {
                     </li>
 
                     <li class="max-w-[80%]">
-                        Sois fier et intrépide : Affiche toujours avec fierté ton statut de <strong class="text-yellow">Zorglux</strong>
+                        Sois fier et intrépide : Affiche toujours avec fierté ton statut de <strong class="text-yellow">Zorglux </strong>
                         et fais face à chaque défi avec courage et détermination. Rien ne peut nous
                         arrêter dans notre quête de domination universelle.
                     </li>
                 </ul>
-
                 <p class="text-center text-skyblue">
                     En suivant ce code de conduite avec dévotion, tu te hisseras au sommet de la société
-                    <strong class="text-yellow">Zorglux</strong> et tu contribueras à garantir la grandeur éternelle de notre peuple.
+                    <strong class="text-yellow"> Zorglux</strong> et tu contribueras à garantir la grandeur éternelle de notre peuple.
+                </p>
+
+
+
+                <p class="text-center text-skyblue">
                     Gloire au peuple <strong class="text-yellow">Zorglux</strong>, et gloire à toi, <strong class="text-yellow">Zorglux</strong> exemplaire !
                 </p>
             </article>
