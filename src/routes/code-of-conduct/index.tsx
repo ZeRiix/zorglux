@@ -78,7 +78,7 @@ export const head: DocumentHead = {
     meta: [
         {
             name: "description",
-            content: "Le code de conduite des Zorglux pour l'excellence suprême.",
+            content: "Code de conduite des Zorglux pour l'excellence suprême. Suivez ces règles pour prospérer dans notre société et garantir la grandeur éternelle de notre peuple.",
         },
     ],
 };

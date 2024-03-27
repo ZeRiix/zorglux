@@ -79,7 +79,7 @@ export const head: DocumentHead = {
     meta: [
         {
             name: "description",
-            content: "Le code de conduite des Zorglux pour l'excellence suprême.",
+            content: "Découvrez l'ambassade Zorglux à Paris, en France. Préparez-vous à l'arrivée de notre civilisation supérieure sur Terre.",
         },
     ],
 };

@@ -91,7 +91,7 @@ export const head: DocumentHead = {
   meta: [
     {
       name: "description",
-      content: "Tous savoir sur notre grand peuple Zorglux et notre histoire.",
+      content: "Découvrez du peuple Zorglux. Apprenez-en plus sur notre civilisation interstellaire et notre quête de domination universelle.",
     },
   ],
 };

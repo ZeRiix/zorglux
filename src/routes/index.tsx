@@ -43,7 +43,7 @@ export const head: DocumentHead = {
   meta: [
     {
       name: "description",
-      content: "Site officiel Zorglux, peuple interstellaire dominant et avancé. Explorez notre civilisation éblouissante, nos réalisations technologiques et notre histoire glorieuse.",
+      content: "Site officiel Zorglux, le peuple interstellaire suprême. Explorez notre civilisation éblouissante, nos réalisations technologiques et notre histoire glorieuse.",
     },
   ],
 };
