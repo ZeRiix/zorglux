@@ -6,6 +6,9 @@ export default {
       screens: {
         xmd: "800px",
       },
+      height: {
+        aside: "calc(100vh - (0.5rem * 2) - 6rem - 15rem - 2rem)",
+      },
       minHeight: {
         "screen-hf": "calc(100vh - (0.5rem * 2) - 6rem - 15rem)",
       },

@@ -25,7 +25,7 @@ export default component$(() => {
       </div>
       <div class="p-2">
         <Header />
-        <main class="p-4 xmd:p-16 min-h-screen-hf flex flex-col items-center">
+        <main class="p-4 lg:p-16 min-h-screen-hf flex flex-col items-center">
           <Slot />
         </main>
         <Footer />
