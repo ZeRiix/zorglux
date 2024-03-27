@@ -9,7 +9,7 @@ export default component$(() => {
       <CornerBloc positionX="left-0" positionY="top-0" />
       <CornerBloc positionX="right-0" positionY="top-0" />
       <Link prefetch replaceState href="/" class="text-center xmd:text-left">
-        <h1 class="text-4xl text-white tracking-[4px]"><strong>Zorglux</strong></h1>
+        <span class="text-4xl text-white tracking-[4px]"><strong>Zorglux</strong></span>
         <p class="mt-1 text-xs text-grey tracking-[10px]">Peuple surpême</p>
       </Link>
       <nav class="mt-4 xmd:mt-0">

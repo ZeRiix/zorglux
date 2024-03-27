@@ -41,7 +41,7 @@ export default component$(() => {
 
           <div class={["animation", started.value ? "block" : "hidden"]}>
             <section class="intro">
-              Gloire aux Zorglux : <br /> Une Épopée Cosmique
+              <h1>Gloire aux Zorglux : <br /> Une Épopée Cosmique</h1>
             </section>
 
             <section class="titles">
