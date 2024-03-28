@@ -26,7 +26,7 @@ export default component$(() => {
 
   return (
     <div class="w-full">
-      <div class="relative z-50">
+      <div class="relative z-40">
         <Breadcrumb labels={breadcrumbs} />
       </div>
       <section class="relative h-full -my-12 flex grow justify-center items-center">
@@ -39,15 +39,15 @@ export default component$(() => {
               onEnded$={stop}
               preload="auto"
             >
-              <source src="https://s.cdpn.io/1202/Star_Wars_original_opening_crawl_1977.ogg" type="audio/ogg" />
-              <source src="https://s.cdpn.io/1202/Star_Wars_original_opening_crawl_1977.mp3" type="audio/mpeg" />
+              <source src="/musics/star-wars-opening-1977.ogg" type="audio/ogg" />
+              <source src="/musics/star-wars-opening-1977.mp3" type="audio/mpeg" />
             </audio>
 
             <button
               ref={quitButton}
               onClick$={stop}
               class={[
-                "quit absolute top-0 right-0 z-50 p-4 text-yellow bg-skyblue",
+                "quit absolute top-0 right-0 z-40 p-4 text-yellow bg-skyblue",
                 started.value ? 'block' : 'hidden'
               ]}>
               Quitter
