@@ -10,13 +10,17 @@ export default component$(() => {
   ];
   const startSection = useSignal<Element>();
   const quitButton = useSignal<Element>();
+  const audio = useSignal<HTMLAudioElement>();
   const started = useSignal(false);
 
   const start = $(() => {
     started.value = true;
+    audio.value.play();
   });
 
   const stop = $(() => {
+    audio.value.pause();
+    audio.value.currentTime = 0;
     started.value = false;
   });
 
@@ -25,23 +29,41 @@ export default component$(() => {
       <div class="relative z-50">
         <Breadcrumb labels={breadcrumbs} />
       </div>
-      <section class="h-full -my-12 flex grow justify-center items-center">
+      <section class="relative h-full -my-12 flex grow justify-center items-center">
         <div
           class="relative w-screen h-screen flex justify-center items-center font-news-cycle font-bold tracking-widest text-yellow overflow-hidden"
         >
           <article class="starwars">
-            <audio preload="auto">
+            <audio
+              ref={audio}
+              onEnded$={stop}
+              preload="auto"
+            >
               <source src="https://s.cdpn.io/1202/Star_Wars_original_opening_crawl_1977.ogg" type="audio/ogg" />
               <source src="https://s.cdpn.io/1202/Star_Wars_original_opening_crawl_1977.mp3" type="audio/mpeg" />
             </audio>
 
-            <button class="quit" onClick$={stop} ref={quitButton}>Quitter</button>
+            <button
+              ref={quitButton}
+              onClick$={stop}
+              class={[
+                "quit absolute top-0 right-0 z-50 p-4 text-yellow bg-skyblue",
+                started.value ? 'block' : 'hidden'
+              ]}>
+              Quitter
+            </button>
 
-            <section onClick$={start} ref={startSection} class={["start", !started.value ? "block" : "hidden"]}>
+            <section
+              ref={startSection}
+              onClick$={start}
+              class={[
+                "start absolute top-1/2 left-[calc(50%-200px)] w-[600px] -mt-16 -ml-28 text-[32px] text-center cursor-pointer",
+                !started.value ? "block" : "hidden"
+              ]}
+            >
               <p>
-                <span>
-                  Il y a bien longtemps, dans une galaxie
-                  lointaine, très lointaine....
+                <span class="font-normal text-skyblue">
+                  Le peuple Zorglux : <br /> Une Épopée Cosmique
                 </span>
                 <br />
                 Cliquer pour lancer
@@ -49,33 +71,39 @@ export default component$(() => {
               </p>
             </section>
 
-            <div class={["animation", started.value ? "block" : "hidden"]}>
-              <section class="intro">
-                <h1>Gloire aux Zorglux : <br /> Une Épopée Cosmique</h1>
+            <div
+              class={[
+                "animation",
+                started.value ? "block" : "hidden"
+              ]}
+            >
+              <section class="intro absolute top-1/2 left-1/2 w-[480px] -ml-[240px] text-[32px] font-normal text-skyblue opacity-0">
+                <h1>Il y a bien longtemps, dans une galaxie lointaine, très lointaine...
+                </h1>
               </section>
 
-              <section class="titles">
-                <div>
-                  <p>
+              <section class="titles absolute top-auto left-1/2 bottom-0 w-[820px] h-[2800px] -ml-[410px] text-[56px] text-justify overflow-hidden transform">
+                <div class="absolute top-full">
+                  <p class="mt-20 mb-24 leading-[76px]">
                     Dans les confins de l'espace, au sein de la constellation éclatante de Zor'Gan, se trouve le
                     berceau des Zorglux, un peuple évoluée dont la grandeur transcende les frontières du cosmos.
                   </p>
-                  <p>
+                  <p class="mt-20 mb-24 leading-[76px]">
                     Depuis les premiers instants de leur histoire, ils ont émergé comme les gardiens de la
                     connaissance et les maîtres des étoiles, étendant leur empire à travers les galaxies avec une
                     puissance inégalée.
                   </p>
-                  <p>
+                  <p class="mt-20 mb-24 leading-[76px]">
                     Guidés par leur foi inébranlable en leur propre supériorité, les Zorglux ont façonné les étoiles
                     et les planètes selon leur volonté, forgeant une civilisation brillante et avancée.
                   </p>
-                  <p>
+                  <p class="mt-20 mb-24 leading-[76px]">
                     Leur histoire, déjà gravée dans les légendes, ne fait pourtant que commencer...
                   </p>
                 </div>
               </section>
 
-              <section class="logo">
+              <section class="logo absolute top-1/2 left-1/2 opacity-0">
                 <svg width="653" height="412" viewBox="0 0 653 412" fill="none" xmlns="http://www.w3.org/2000/svg"
                   xmlns:xlink="http://www.w3.org/1999/xlink">
                   <rect width="674" height="412" fill="url(#pattern0)" />
