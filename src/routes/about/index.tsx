@@ -21,10 +21,12 @@ export default component$(() => {
   });
 
   return (
-    <div>
-      <Breadcrumb labels={breadcrumbs} />
+    <div class="w-full">
+      <div class="relative z-50">
+        <Breadcrumb labels={breadcrumbs} />
+      </div>
       <section class="h-full -my-12 flex grow justify-center items-center">
-        <main
+        <div
           class="relative w-screen h-screen flex justify-center items-center font-news-cycle font-bold tracking-widest text-yellow overflow-hidden"
         >
           <article class="starwars">
@@ -89,7 +91,7 @@ export default component$(() => {
               </section>
             </div>
           </article>
-        </main>
+        </div>
       </section>
     </div>
   );
