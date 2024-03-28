@@ -12,7 +12,7 @@ export default component$(() => {
   });
 
   return (
-    <div class="relative">
+    <div class="relative z-50">
       <header class="relative min-h-24 px-6 py-4 flex flex-row justify-between items-center w-full bg-dark border-y border-grey">
         <CornerBloc positionX="left-0" positionY="top-0" />
         <CornerBloc positionX="right-0" positionY="top-0" />
@@ -55,7 +55,7 @@ export default component$(() => {
         <CornerBloc positionX="right-0" positionY="bottom-0" />
       </header>
 
-      <aside class={["block lg:hidden absolute z-50 top-28 w-64 h-aside min-h-64 p-4 bg-dark border-y border-grey transition-all duration-300", isActive.value ? 'right-0' : '-right-80']}>
+      <aside class={["block lg:hidden absolute top-28 w-64 h-aside min-h-64 p-4 bg-dark border-y border-grey transition-all duration-300", isActive.value ? 'right-0' : '-right-80']}>
         <CornerBloc positionX="left-0" positionY="top-0" />
         <CornerBloc positionX="right-0" positionY="top-0" />
         <nav class="flex flex-col items-start justify-center h-full">

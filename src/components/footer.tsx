@@ -5,7 +5,7 @@ import CornerBloc from "./corner-bloc";
 
 export default component$(() => {
   return (
-    <footer class="relative h-60 flex justify-center items-center bg-dark border-y border-grey">
+    <footer class="relative z-50 h-60 flex justify-center items-center bg-dark border-y border-grey">
       <CornerBloc positionX="left-0" positionY="top-0" />
       <CornerBloc positionX="right-0" positionY="top-0" />
       <nav>
