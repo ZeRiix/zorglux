@@ -6,7 +6,6 @@ import Breadcrumb from "../../components/breadcrumb";
 export default component$(() => {
     const breadcrumbs = [
         { label: "Accueil", url: "/" },
-        { label: "À propos", url: "/about" },
         { label: "Être un bon Zorglux", url: "/code-of-conduct" },
     ];
 
