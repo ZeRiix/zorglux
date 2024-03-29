@@ -3,11 +3,12 @@ import type { DocumentHead } from "@builder.io/qwik-city";
 
 import Breadcrumb from "../../components/breadcrumb";
 
+const breadcrumbs = [
+  { label: "Accueil", url: "/" },
+  { label: "À propos", url: "/about" }
+];
+
 export default component$(() => {
-  const breadcrumbs = [
-    { label: "Accueil", url: "/" },
-    { label: "À propos", url: "/about" }
-  ];
   const startSection = useSignal<Element>();
   const quitButton = useSignal<Element>();
   const audio = useSignal<HTMLAudioElement>();
@@ -15,12 +16,16 @@ export default component$(() => {
 
   const start = $(() => {
     started.value = true;
-    audio.value.play();
+    if(audio.value){
+      audio.value.play();
+    }
   });
 
   const stop = $(() => {
-    audio.value.pause();
-    audio.value.currentTime = 0;
+    if(audio.value){
+      audio.value.pause();
+      audio.value.currentTime = 0;
+    }
     started.value = false;
   });
 

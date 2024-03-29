@@ -3,22 +3,23 @@ import { type DocumentHead } from "@builder.io/qwik-city";
 
 import Breadcrumb from "../../components/breadcrumb";
 
+const breadcrumbs = [
+    { label: "Accueil", url: "/" },
+    { label: "Ambassade", url: "/embassy" }
+];
+
 export default component$(() => {
-    const breadcrumbs = [
-        { label: "Accueil", url: "/" },
-        { label: "Ambassade", url: "/embassy" }
-    ];
 
     return (
         <div>
             <Breadcrumb labels={breadcrumbs} />
             <section class="max-w-7xl h-full flex grow flex-col justify-center items-center">
-                <h1 class="mb-10 text-5xl text-center text-yellow">Ambassade <strong>Zorglux</strong> à Paris</h1>
+                <h1 class="mb-10 text-5xl text-center text-yellow">Ambassade <strong>Zorglux</strong> à <strong>Paris</strong></h1>
                 <div class="flex gap-24 flex-col">
                     <article class="text-skyblue">
                         <h2 class="mb-5 text-2xl">Les <strong class="text-yellow">Zorglux</strong> arrivent sur Terre</h2>
                         <p>
-                            Anticipez avec honneur l'arrivée imminente de notre ambassade en Fance, dans votre ville acceptable qu'est Paris.
+                            Anticipez avec honneur l'arrivée imminente de notre ambassade en Fance, dans votre ville acceptable qu'est <strong>Paris</strong>.
                             En tant que représentants de la grandeur <strong class="text-yellow">Zorglux</strong>, nous préparons le terrain pour une interaction sans précédent
                             entre notre civilisation supérieure et la vôtre. Soyez prêts à découvrir la splendeur de notre culture,
                             les avancées technologiques qui éclipseront celles de votre monde, et les traditions millénaires
@@ -40,7 +41,7 @@ export default component$(() => {
                         </p>
                         <br />
                         <p>
-                            Anticipez avec nous l'arrivée de cette nouvelle ère à Paris, en France et ensemble, écrivons les prochaines pages de l'histoire intergalactique.
+                            Anticipez avec nous l'arrivée de cette nouvelle ère à <strong>Paris</strong>, en France et ensemble, écrivons les prochaines pages de l'histoire intergalactique.
                             Ne nous faites pas regretter de vous avoir choisis...
                         </p>
                     </article>
@@ -59,7 +60,7 @@ export default component$(() => {
                         <br />
                         <p>
                             Conformément à nos exigences, les bâtiments existants sur l'emplacement prévu seront rasés sans contrepartie
-                            car c'est un privilège sans précédent pour Paris de devenir le foyer de notre ambassade.
+                            car c'est un privilège sans précédent pour <strong>Paris</strong> de devenir le foyer de notre ambassade.
                         </p>
                         <br />
                         <figure>
@@ -84,11 +85,11 @@ export default component$(() => {
 })
 
 export const head: DocumentHead = {
-    title: "zorglux - Ambassade en France (Paris)",
+    title: "zorglux - Ambassade en France (<strong>Paris</strong>)",
     meta: [
         {
             name: "description",
-            content: "Découvrez l'ambassade Zorglux à Paris, en France. Préparez-vous à l'arrivée de notre civilisation supérieure sur Terre.",
+            content: "Découvrez l'ambassade Zorglux à <strong>Paris</strong>, en France. Préparez-vous à l'arrivée de notre civilisation supérieure sur Terre.",
         },
     ],
 };

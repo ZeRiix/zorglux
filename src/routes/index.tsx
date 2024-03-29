@@ -3,10 +3,11 @@ import type { DocumentHead } from "@builder.io/qwik-city";
 
 import Breadcrumb from "../components/breadcrumb";
 
+const breadcrumbs = [
+  { label: "Accueil", url: "/" }
+];
+
 export default component$(() => {
-  const breadcrumbs = [
-    { label: "Accueil", url: "/" }
-  ];
 
   return (
     <div>

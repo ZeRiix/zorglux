@@ -3,11 +3,12 @@ import { type DocumentHead } from "@builder.io/qwik-city";
 
 import Breadcrumb from "../../components/breadcrumb";
 
+const breadcrumbs = [
+    { label: "Accueil", url: "/" },
+    { label: "Être un bon Zorglux", url: "/code-of-conduct" },
+];
+
 export default component$(() => {
-    const breadcrumbs = [
-        { label: "Accueil", url: "/" },
-        { label: "Être un bon Zorglux", url: "/code-of-conduct" },
-    ];
 
     return (
         <div>

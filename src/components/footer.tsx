@@ -11,19 +11,19 @@ export default component$(() => {
       <nav>
         <ul class="h-full flex flex-col lg:flex-row justify-start lg:justify-center items-center text-grey">
           <li class="mx-4">
-            <Link href="/" class="tracking-[4px] hover:text-blue transition-colors">Accueil</Link>
+            <Link prefetch href="/" class="tracking-[4px] hover:text-blue transition-colors">Accueil</Link>
           </li>
 
           <li class="mx-4">
-            <Link href="/about" class="tracking-[4px] hover:text-blue transition-colors">A propos</Link>
+            <Link prefetch href="/about" class="tracking-[4px] hover:text-blue transition-colors">A propos</Link>
           </li>
 
           <li class="mx-4">
-            <Link href="/code-of-conduct" class="tracking-[4px] hover:text-blue transition-colors">Être un&nbsp;bon <strong>Zorglux</strong></Link>
+            <Link prefetch href="/code-of-conduct" class="tracking-[4px] hover:text-blue transition-colors">Être un&nbsp;bon <strong>Zorglux</strong></Link>
           </li>
 
           <li class="mx-4">
-            <Link href="/embassy" class="tracking-[4px] hover:text-blue transition-colors">Ambassade</Link>
+            <Link prefetch href="/embassy" class="tracking-[4px] hover:text-blue transition-colors">Ambassade</Link>
           </li>
         </ul>
       </nav>

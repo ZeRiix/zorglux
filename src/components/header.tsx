@@ -23,19 +23,19 @@ export default component$(() => {
         <nav class="hidden lg:block mt-4 lg:mt-0">
           <ul class="h-full flex flex-wrap lg:flex-nowrap justify-suseSignaltart lg:justify-center items-center text-grey">
             <li class="mx-4">
-              <Link prefetch replaceState href="/" class="tracking-[4px] hover:text-blue transition-colors">Accueil</Link>
+              <Link prefetch href="/" class="tracking-[4px] hover:text-blue transition-colors">Accueil</Link>
             </li>
 
             <li class="mx-4">
-              <Link prefetch replaceState href="/about" class="tracking-[4px] hover:text-blue transition-colors">À propos</Link>
+              <Link prefetch href="/about" class="tracking-[4px] hover:text-blue transition-colors">À propos</Link>
             </li>
 
             <li class="mx-4">
-              <Link href="/code-of-conduct" class="tracking-[4px] text-center lg:text-left hover:text-blue transition-colors">Être un&nbsp;bon <strong>Zorglux</strong></Link>
+              <Link prefetch href="/code-of-conduct" class="tracking-[4px] text-center lg:text-left hover:text-blue transition-colors">Être un&nbsp;bon <strong>Zorglux</strong></Link>
             </li>
 
             <li class="mx-4">
-              <Link href="/embassy" class="tracking-[4px] hover:text-blue transition-colors">Ambassade</Link>
+              <Link prefetch href="/embassy" class="tracking-[4px] hover:text-blue transition-colors">Ambassade</Link>
             </li>
           </ul>
         </nav>
@@ -61,19 +61,19 @@ export default component$(() => {
         <nav class="flex flex-col items-start justify-center h-full">
           <ul class="text-grey">
             <li class="my-4">
-              <Link onClick$={toggle} prefetch replaceState href="/" class="tracking-[4px] hover:text-blue transition-colors">Accueil</Link>
+              <Link onClick$={toggle} prefetch href="/" class="tracking-[4px] hover:text-blue transition-colors">Accueil</Link>
             </li>
 
             <li class="my-4">
-              <Link onClick$={toggle} prefetch replaceState href="/about" class="tracking-[4px] hover:text-blue transition-colors">À propos</Link>
+              <Link onClick$={toggle} prefetch href="/about" class="tracking-[4px] hover:text-blue transition-colors">À propos</Link>
             </li>
 
             <li class="my-4">
-              <Link onClick$={toggle} href="/code-of-conduct" class="tracking-[4px] text-center lg:text-left hover:text-blue transition-colors">Être un&nbsp;bon <strong>Zorglux</strong></Link>
+              <Link onClick$={toggle} prefetch href="/code-of-conduct" class="tracking-[4px] text-center lg:text-left hover:text-blue transition-colors">Être un&nbsp;bon <strong>Zorglux</strong></Link>
             </li>
 
             <li class="my-4">
-              <Link onClick$={toggle} href="/embassy" class="tracking-[4px] hover:text-blue transition-colors">Ambassade</Link>
+              <Link onClick$={toggle} prefetch href="/embassy" class="tracking-[4px] hover:text-blue transition-colors">Ambassade</Link>
             </li>
           </ul>
         </nav>
