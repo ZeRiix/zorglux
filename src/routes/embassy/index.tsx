@@ -41,7 +41,7 @@ export default component$(() => {
                         </p>
                         <br />
                         <p>
-                            Anticipez avec nous l'arrivée de cette nouvelle ère à <strong>Paris</strong>, en France et ensemble, écrivons les prochaines pages de l'histoire intergalactique.
+                            Anticipez avec nous l'arrivée de cette nouvelle ère à <strong>Paris</strong>, en <strong>France</strong> et ensemble, écrivons les prochaines pages de l'histoire intergalactique.
                             Ne nous faites pas regretter de vous avoir choisis...
                         </p>
                     </article>
@@ -85,11 +85,11 @@ export default component$(() => {
 })
 
 export const head: DocumentHead = {
-    title: "zorglux - Ambassade en France (<strong>Paris</strong>)",
+    title: "zorglux - Ambassade en <strong>France</strong> (<strong>Paris</strong>)",
     meta: [
         {
             name: "description",
-            content: "Découvrez l'ambassade Zorglux à <strong>Paris</strong>, en France. Préparez-vous à l'arrivée de notre civilisation supérieure sur Terre.",
+            content: "Découvrez l'ambassade Zorglux à <strong>Paris</strong>, en <strong>France</strong>. Préparez-vous à l'arrivée de notre civilisation supérieure sur Terre.",
         },
     ],
 };
