@@ -8,8 +8,8 @@ export default component$(() => {
             <h1 class="mb-10 text-3xl lg:text-5xl text-center text-yellow">
                 Page non trouvée
             </h1>
-            <div class="flex gap-8 flex-col items-center">
-                <p>La page que vous cherchez n'existe pas.</p>
+            <div class="flex gap-8 flex-col items-center text-center">
+                <p>Nous Zorglux, même en étant les meilleurs, ne pouvons pas trouver ce qui n'existe pas.</p>
 
                 <Link prefetch replaceState href="/" class="flex gap-1 items-center text-left hover:text-blue transition-colors">
                     <span class="mdi mdi-arrow-left"></span>
