@@ -4,7 +4,7 @@ import type { DocumentHead } from "@builder.io/qwik-city";
 import Breadcrumb from "../components/breadcrumb";
 
 const breadcrumbs = [
-  { label: "Accueil", url: "/" }
+  { label: "Accueil", url: "/", icon: "home" },
 ];
 
 export default component$(() => {
@@ -13,7 +13,7 @@ export default component$(() => {
     <div>
       <Breadcrumb labels={breadcrumbs} />
       <section class="max-w-7xl h-full flex grow flex-col justify-center items-center">
-        <h1 class="mb-10 text-5xl text-center text-yellow">
+        <h1 class="mb-10 text-3xl lg:text-5xl text-center text-yellow">
           Avis au peuple <strong>Zorglux</strong>, Êtres Supérieurs !
         </h1>
         <article class="flex flex-col items-center">

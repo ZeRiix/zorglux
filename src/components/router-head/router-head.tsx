@@ -39,6 +39,9 @@ export const RouterHead = component$(() => {
       <meta property="twitter:description" content={head.meta.find(m => m.name === 'description')?.content} />
       <meta property="twitter:image" content="/images/logo.svg" />
 
+      {/* Global style */}
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css" />
+
       {head.meta.map((m) => (
         <meta key={m.key} {...m} />
       ))}

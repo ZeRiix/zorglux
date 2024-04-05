@@ -6,9 +6,8 @@ import CornerBloc from "./corner-bloc";
 export default component$(() => {
   const isActive = useSignal(false);
 
-  const toggle = $(() => {
-    isActive.value = !isActive.value;
-    console.log(isActive.value);
+  const closeMenu = $(() => {
+    isActive.value = false;
   });
 
   return (
@@ -16,7 +15,7 @@ export default component$(() => {
       <header class="relative min-h-24 px-6 py-4 flex flex-row justify-between items-center w-full bg-dark border-y border-grey">
         <CornerBloc positionX="left-0" positionY="top-0" />
         <CornerBloc positionX="right-0" positionY="top-0" />
-        <Link prefetch replaceState href="/" class="text-left">
+        <Link onClick$={closeMenu} prefetch replaceState href="/" class="text-left">
           <h1 class="text-4xl text-white tracking-[4px]"><strong>Zorglux</strong></h1>
           <p class="mt-1 text-xs text-grey tracking-[10px]">Peuple surpême</p>
         </Link>
@@ -39,7 +38,7 @@ export default component$(() => {
             </li>
           </ul>
         </nav>
-        <button onClick$={toggle} class="relative scale-150 lg:hidden">
+        <button onClick$={() => isActive.value = !isActive.value} class="relative scale-150 lg:hidden">
           <div class="flex flex-col justify-between w-[20px] h-[20px] transform transition-all duration-300 origin-center overflow-hidden">
             <div class={["bg-white h-0.5 w-7 transform transition-all duration-300 origin-left", isActive.value ? 'translate-x-10' : '',]}></div>
             <div class={["bg-white h-0.5 w-7 rounded transform transition-all duration-300 delay-75", isActive.value ? 'translate-x-10' : '',]}></div>
@@ -61,19 +60,19 @@ export default component$(() => {
         <nav class="flex flex-col items-start justify-center h-full">
           <ul class="text-grey">
             <li class="my-4">
-              <Link onClick$={toggle} prefetch href="/" class="tracking-[4px] hover:text-blue transition-colors">Accueil</Link>
+              <Link onClick$={closeMenu} prefetch href="/" class="tracking-[4px] hover:text-blue transition-colors">Accueil</Link>
             </li>
 
             <li class="my-4">
-              <Link onClick$={toggle} prefetch href="/about" class="tracking-[4px] hover:text-blue transition-colors">À propos</Link>
+              <Link onClick$={closeMenu} prefetch href="/about" class="tracking-[4px] hover:text-blue transition-colors">À propos</Link>
             </li>
 
             <li class="my-4">
-              <Link onClick$={toggle} prefetch href="/code-of-conduct" class="tracking-[4px] text-center lg:text-left hover:text-blue transition-colors">Être un&nbsp;bon <strong>Zorglux</strong></Link>
+              <Link onClick$={closeMenu} prefetch href="/code-of-conduct" class="tracking-[4px] text-center lg:text-left hover:text-blue transition-colors">Être un&nbsp;bon <strong>Zorglux</strong></Link>
             </li>
 
             <li class="my-4">
-              <Link onClick$={toggle} prefetch href="/embassy" class="tracking-[4px] hover:text-blue transition-colors">Ambassade</Link>
+              <Link onClick$={closeMenu} prefetch href="/embassy" class="tracking-[4px] hover:text-blue transition-colors">Ambassade</Link>
             </li>
           </ul>
         </nav>

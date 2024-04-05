@@ -4,8 +4,8 @@ import type { DocumentHead } from "@builder.io/qwik-city";
 import Breadcrumb from "../../components/breadcrumb";
 
 const breadcrumbs = [
-  { label: "Accueil", url: "/" },
-  { label: "À propos", url: "/about" }
+  { label: "Accueil", url: "/", icon: "home" },
+  { label: "À propos", url: "/about", icon: "information" }
 ];
 
 export default component$(() => {
@@ -16,13 +16,13 @@ export default component$(() => {
 
   const start = $(() => {
     started.value = true;
-    if(audio.value){
+    if (audio.value) {
       audio.value.play();
     }
   });
 
   const stop = $(() => {
-    if(audio.value){
+    if (audio.value) {
       audio.value.pause();
       audio.value.currentTime = 0;
     }
@@ -135,7 +135,7 @@ export const head: DocumentHead = {
   meta: [
     {
       name: "description",
-      content: "Découvrez du peuple Zorglux. Apprenez-en plus sur notre civilisation interstellaire et notre quête de domination universelle.",
+      content: "Découvrez le peuple Zorglux. Apprenez-en plus sur notre civilisation interstellaire et notre quête de domination universelle.",
     },
   ],
 };
