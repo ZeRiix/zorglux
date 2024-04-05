@@ -84,7 +84,7 @@ export default component$(() => {
 })
 
 export const head: DocumentHead = {
-    title: "zorglux - Code de conduite.",
+    title: "Zorglux - Code de conduite.",
     meta: [
         {
             name: "description",

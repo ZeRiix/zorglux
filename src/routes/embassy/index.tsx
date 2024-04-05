@@ -85,7 +85,7 @@ export default component$(() => {
 })
 
 export const head: DocumentHead = {
-    title: "zorglux - Ambassade en France (Paris)",
+    title: "Zorglux - Ambassade en France (Paris)",
     meta: [
         {
             name: "description",
