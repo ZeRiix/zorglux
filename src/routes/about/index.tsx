@@ -30,7 +30,7 @@ export default component$(() => {
   });
 
   return (
-    <div class="w-full">
+    <div class="max-w-7xl">
       <div class="relative z-40">
         <Breadcrumb labels={breadcrumbs} />
       </div>
