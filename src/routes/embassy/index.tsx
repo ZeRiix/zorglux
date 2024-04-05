@@ -19,7 +19,7 @@ export default component$(() => {
                     <article class="text-skyblue">
                         <h2 class="mb-5 text-2xl">Les <strong class="text-yellow">Zorglux</strong> arrivent sur Terre</h2>
                         <p>
-                            Anticipez avec honneur l'arrivée imminente de notre ambassade en Fance, dans votre ville acceptable qu'est <strong>Paris</strong>.
+                            Anticipez avec honneur l'arrivée imminente de notre ambassade en <strong>Fance</strong>, dans votre ville acceptable qu'est <strong>Paris</strong>.
                             En tant que représentants de la grandeur <strong class="text-yellow">Zorglux</strong>, nous préparons le terrain pour une interaction sans précédent
                             entre notre civilisation supérieure et la vôtre. Soyez prêts à découvrir la splendeur de notre culture,
                             les avancées technologiques qui éclipseront celles de votre monde, et les traditions millénaires
@@ -85,11 +85,11 @@ export default component$(() => {
 })
 
 export const head: DocumentHead = {
-    title: "zorglux - Ambassade en <strong>France</strong> (<strong>Paris</strong>)",
+    title: "zorglux - Ambassade en France (Paris)",
     meta: [
         {
             name: "description",
-            content: "Découvrez l'ambassade Zorglux à <strong>Paris</strong>, en <strong>France</strong>. Préparez-vous à l'arrivée de notre civilisation supérieure sur Terre.",
+            content: "Découvrez l'ambassade Zorglux à Paris, en France. Préparez-vous à l'arrivée de notre civilisation supérieure sur Terre.",
         },
     ],
 };

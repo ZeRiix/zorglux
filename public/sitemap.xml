@@ -2,22 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://zorglux.fr</loc>
-        <changefreq>always</changefreq>
-        <priority>1</priority>
+        <changefreq>weekly</changefreq>
+        <lastmod>2024-04-05</lastmod>
     </url>
     <url>
         <loc>https://zorglux.fr/about</loc>
-        <changefreq>always</changefreq>
-        <priority>1</priority>
+        <changefreq>weekly</changefreq>
+        <lastmod>2024-04-05</lastmod>
     </url>
     <url>
         <loc>https://zorglux.fr/code-of-conduct</loc>
-        <changefreq>always</changefreq>
-        <priority>1</priority>
+        <changefreq>weekly</changefreq>
+        <lastmod>2024-04-05</lastmod>
     </url>
     <url>
         <loc>https://zorglux.fr/embassy</loc>
-        <changefreq>always</changefreq>
-        <priority>1</priority>
+        <changefreq>weekly</changefreq>
+        <lastmod>2024-04-05</lastmod>
     </url>
 </urlset>
