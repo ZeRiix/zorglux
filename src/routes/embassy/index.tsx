@@ -28,7 +28,7 @@ export default component$(() => {
                         <br />
                         <p>
                             Notre future ambassade ne sera pas seulement un bâtiment, mais un portail vers des horizons cosmiques,
-                            où les échanges entre notre peuple évoluée et le vôtre transformeront votre compréhension de l'univers.
+                            où les échanges entre notre peuple évolué et le vôtre transformeront votre compréhension de l'univers.
                             Bientôt, vous pourrez rencontrer nos émissaires, participer à nos cérémonies,
                             et ouvrir votre esprit aux possibilités infinies de la coopération intergalactique.
                         </p>

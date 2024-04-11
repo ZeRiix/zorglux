@@ -27,7 +27,7 @@ export default component$(() => {
             <p>
               Nous <strong class="text-yellow">Zorglux</strong>, avec notre sagesse inégalée et notre technologie avancée, sommes destinés à régner en maîtres sur toute la galaxie.
               Nous ne tolérerons aucune forme de dilution de notre pureté <strong class="text-yellow">Zorglux</strong>.
-              Tous ces peuples étrangers, avec leurs coutumes barbares et leurs langues gutturales, doivent être repoussés loin de nos frontières.
+              Tous ces peuples non-<strong class="text-yellow">Zorglux</strong>, avec leurs coutumes barbares et leurs langues gutturales, doivent être repoussés loin de nos frontières.
             </p>
             <br />
             <p>
