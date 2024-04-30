@@ -3,6 +3,9 @@ import { type DocumentHead } from "@builder.io/qwik-city";
 
 import Breadcrumb from "../../components/breadcrumb";
 
+import ImgEmbassy from '/images/embassy/embassy.webp';
+import ImgMap from '/images/embassy/map.webp';
+
 const breadcrumbs = [
     { label: "Accueil", url: "/", icon: "home" },
     { label: "Ambassade", url: "/embassy", icon: "chess-rook" }
@@ -48,7 +51,7 @@ export default component$(() => {
                     <article class="text-skyblue">
                         <h2 class="mb-5 text-2xl">Ambassade <strong class="text-yellow">Zorglux</strong></h2>
                         <figure>
-                            <img src="/images/embassy/embassy.webp" alt="Abassade Zorglux" class="max-h-96" />
+                            <img src={ImgEmbassy} alt="Abassade Zorglux" width={307} height={384} class="max-h-96" />
                             <figcaption class="text-sm italic">
                                 Ambassade <strong>Zorglux</strong>
                             </figcaption>
@@ -64,7 +67,7 @@ export default component$(() => {
                         </p>
                         <br />
                         <figure>
-                            <img src="/images/embassy/map.webp" alt="Abassade Zorglux" class="max-h-96" />
+                            <img src={ImgMap} alt="Abassade Zorglux" width={571} height={384} class="max-h-96" />
                             <figcaption class="text-sm italic">
                                 Emplacement de l'ambassade <strong>Zorglux</strong>
                             </figcaption>
