@@ -3,6 +3,8 @@ import { type DocumentHead } from "@builder.io/qwik-city";
 
 import Breadcrumb from "../../components/breadcrumb";
 
+import ImgZorgluxSalut from '/images/zorglux/salut.png'
+
 const breadcrumbs = [
     { label: "Accueil", url: "/", icon: "home" },
     { label: "Être un bon Zorglux", icon: "file-document" },
@@ -24,43 +26,37 @@ export default component$(() => {
                             et notre culture doit être inébranlable. Rejette toute influence non-<strong class="text-yellow">Zorglux </strong>
                             et défends avec ferveur notre suprématie.
                         </li>
-
                         <li class="lg:max-w-[70%]">
                             Méprise les non-<strong class="text-yellow">Zorglux</strong> : Il ne méritent que notre mépris.
                             Évite tout contact avec eux autant que possible et ne laisse jamais leur
                             présence contaminer notre pureté <strong class="text-yellow">Zorglux</strong>.
                         </li>
-
                         <li class="lg:max-w-[60%]">
                             Cultive ta grandeur : Cherche constamment à améliorer ton savoir, ta force et
                             ta sagesse. Seuls les <strong class="text-yellow">Zorglux</strong> les plus brillants méritent de prospérer
                             dans notre société.
                         </li>
-
                         <li class="lg:max-w-[50%]">
                             Protège notre territoire : Garde nos frontières impénétrables et défends notre
                             planète-mère contre toute intrusion non-<strong class="text-yellow">Zorglux</strong>. La sécurité de notre peuple est
                             primordiale.
                         </li>
-
+                        <img src={ImgZorgluxSalut} alt="Zorglux Salut" width={240} height={240} class=" max-h-60" />
                         <li class="lg:max-w-[50%]">
                             Respecte l'autorité : Obéis aux ordres de nos dirigeants sans te questionner. Leur
                             sagesse et leur vision nous guident vers un avenir glorieux en tant que peuple
                             dominante de l'univers.
                         </li>
-
                         <li class="lg:max-w-[60%]">
                             Exalte notre héritage : Préserve et célèbre nos traditions ancestrales. Elles
                             sont le fondement de notre identité en tant que <strong class="text-yellow">Zorglux</strong> et doivent être
                             transmises aux générations futures.
                         </li>
-
                         <li class="lg:max-w-[70%]">
                             Rejette la faiblesse : La compassion et la tolérance sont des faiblesses qui
                             affaiblissent notre peuple. Montre-toi impitoyable envers ceux qui défient notre
                             suprématie.
                         </li>
-
                         <li class="lg:max-w-[80%]">
                             Sois fier et intrépide : Affiche toujours avec fierté ton statut de <strong class="text-yellow">Zorglux </strong>
                             et fais face à chaque défi avec courage et détermination. Rien ne peut nous
