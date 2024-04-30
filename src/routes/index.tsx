@@ -4,7 +4,7 @@ import type { DocumentHead } from "@builder.io/qwik-city";
 import Breadcrumb from "../components/breadcrumb";
 
 const breadcrumbs = [
-  { label: "Accueil", url: "/", icon: "home" },
+  { label: "Accueil", icon: "home" },
 ];
 
 export default component$(() => {

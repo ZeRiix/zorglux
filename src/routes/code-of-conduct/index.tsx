@@ -5,7 +5,7 @@ import Breadcrumb from "../../components/breadcrumb";
 
 const breadcrumbs = [
     { label: "Accueil", url: "/", icon: "home" },
-    { label: "Être un bon Zorglux", url: "/code-of-conduct", icon: "file-document" },
+    { label: "Être un bon Zorglux", icon: "file-document" },
 ];
 
 export default component$(() => {

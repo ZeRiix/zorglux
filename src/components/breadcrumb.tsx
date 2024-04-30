@@ -3,7 +3,7 @@ import { Link } from "@builder.io/qwik-city";
 
 interface BreadcrumbLabel {
     label: string;
-    url: string;
+    url?: string;
     icon: string;
 }
 

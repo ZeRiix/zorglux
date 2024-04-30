@@ -8,7 +8,7 @@ import ImgMap from '/images/embassy/map.webp';
 
 const breadcrumbs = [
     { label: "Accueil", url: "/", icon: "home" },
-    { label: "Ambassade", url: "/embassy", icon: "chess-rook" }
+    { label: "Ambassade", icon: "chess-rook" }
 ];
 
 export default component$(() => {

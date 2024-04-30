@@ -5,7 +5,7 @@ import Breadcrumb from "../../components/breadcrumb";
 
 const breadcrumbs = [
   { label: "Accueil", url: "/", icon: "home" },
-  { label: "À propos", url: "/about", icon: "information" }
+  { label: "À propos", icon: "information" }
 ];
 
 export default component$(() => {
