@@ -5,11 +5,11 @@ import CornerBloc from "./corner-bloc";
 
 export default component$(() => {
   return (
-    <footer class="relative z-50 min-h-60 px-6 py-4 flex flex-col lg:flex-row gap-8 lg:gap-16 justify-center items-center bg-dark border-y border-grey">
+    <footer class="relative z-50 min-h-60 px-6 py-4 flex flex-col lg:flex-row gap-8 lg:gap-0 justify-center items-end lg:items-center bg-dark border-y border-grey">
       <CornerBloc positionX="left-0" positionY="top-0" />
       <CornerBloc positionX="right-0" positionY="top-0" />
-      <nav>
-        <ul class="h-full flex flex-col justify-start lg:justify-center items-center text-grey">
+      <nav class="flex-1">
+        <ul class="h-full flex flex-col justify-center items-end lg:items-center text-grey">
           <li class="mx-4">
             <Link prefetch href="/" class="tracking-[4px] hover:text-blue transition-colors">Accueil</Link>
           </li>
@@ -27,8 +27,8 @@ export default component$(() => {
           </li>
         </ul>
       </nav>
-      <nav>
-        <ul class="h-full flex flex-col justify-start lg:justify-center items-center text-grey">
+      <nav class="flex-1">
+        <ul class="h-full flex flex-col justify-center items-end lg:items-center text-grey">
           <li class="mx-4 flex gap-1 items-center tracking-[4px] hover:text-blue transition-colors">
             <a href="https://www.facebook.com/" target="_blank">
               <span class="mdi mdi-facebook text-lg"></span>
