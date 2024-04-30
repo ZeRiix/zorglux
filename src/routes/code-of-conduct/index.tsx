@@ -17,7 +17,7 @@ export default component$(() => {
                 <h1 class="mb-10 text-3xl lg:text-5xl text-center text-yellow">
                     Code de Conduite <strong>Zorglux</strong> pour&nbsp;l'Excellence Suprême
                 </h1>
-                <article class="flex flex-col items-center gap-10">
+                <article class="max-w-[90%] lg:max-w-[70%] flex flex-col items-center gap-10">
                     <ul class="ml-4 flex flex-col gap-4 list-decimal items-center lg:text-center text-skyblue">
                         <li class="lg:max-w-[80%]">
                             Honore ton peuple : En tant que <strong class="text-yellow">Zorglux</strong>, ta loyauté envers notre peuple

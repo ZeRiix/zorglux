@@ -23,7 +23,7 @@ export default component$(() => {
                 <div class="flex gap-8 flex-col items-center text-center">
                     <p>Nous Zorglux, même en étant les meilleurs, ne pouvons pas trouver ce qui n'existe pas.</p>
 
-                    <Link prefetch replaceState href="/" class="mb-4  flex gap-1 items-center text-left hover:text-blue transition-colors">
+                    <Link prefetch replaceState href="/" class="flex gap-1 items-center text-left hover:text-blue transition-colors">
                         <span class="mdi mdi-arrow-left"></span>
                         Revenir à l'accueil
                     </Link>

@@ -18,9 +18,9 @@ export default component$(() => {
             <Breadcrumb labels={breadcrumbs} />
             <section class="max-w-7xl h-full flex grow flex-col justify-center items-center">
                 <h1 class="mb-10 text-3xl lg:text-5xl text-center text-yellow">Ambassade <strong>Zorglux</strong> à <strong>Paris</strong></h1>
-                <div class="flex gap-24 flex-col">
-                    <article class="text-skyblue">
-                        <h2 class="mb-5 text-2xl">Les <strong class="text-yellow">Zorglux</strong> arrivent sur Terre</h2>
+                <div class="flex gap-24 flex-col items-center">
+                    <article class="max-w-[90%] lg:max-w-[70%] text-skyblue">
+                        <h2 class="mb-5 text-2xl">Les <strong class="text-yellow">Zorglux</strong> arrivent sur&nbsp;Terre</h2>
                         <p>
                             Anticipez avec honneur l'arrivée imminente de notre ambassade en <strong>Fance</strong>, dans votre ville acceptable qu'est <strong>Paris</strong>.
                             En tant que représentants de la grandeur <strong class="text-yellow">Zorglux</strong>, nous préparons le terrain pour une interaction sans précédent
@@ -48,7 +48,7 @@ export default component$(() => {
                             Ne nous faites pas regretter de vous avoir choisis...
                         </p>
                     </article>
-                    <article class="text-skyblue">
+                    <article class="max-w-[90%] lg:max-w-[70%] text-skyblue">
                         <h2 class="mb-5 text-2xl">Ambassade <strong class="text-yellow">Zorglux</strong></h2>
                         <figure>
                             <img src={ImgEmbassy} alt="Abassade Zorglux" width={307} height={384} class="max-h-96" />
