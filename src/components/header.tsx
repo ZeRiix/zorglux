@@ -17,7 +17,7 @@ export default component$(() => {
         <CornerBloc positionX="right-0" positionY="top-0" />
         <Link onClick$={closeMenu} prefetch replaceState href="/" class="text-left">
           <h1 class="text-4xl text-white tracking-[4px]"><strong>Zorglux</strong></h1>
-          <p class="mt-1 text-xs text-grey tracking-[10px]">Peuple surpême</p>
+          <p class="mt-1 text-xs text-grey tracking-[10px]">Peuple glorieux</p>
         </Link>
         <nav class="hidden lg:block mt-4 lg:mt-0">
           <ul class="h-full flex flex-wrap lg:flex-nowrap justify-suseSignaltart lg:justify-center items-center text-grey">

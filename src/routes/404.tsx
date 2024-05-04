@@ -4,7 +4,7 @@ import { Link } from '@builder.io/qwik-city';
 
 import Breadcrumb from "../components/breadcrumb";
 
-import ImgZorgluxLost from '/images/zorglux/lost.png'
+import ImgZorgluxLost from '../../public/images/zorglux/lost.png'
 
 const breadcrumbs = [
     { label: "Accueil", url: "/", icon: "home" },
