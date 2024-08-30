@@ -1,22 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://zorglux.fr</loc>
+        <loc>https://zorg-luxe.fr</loc>
         <changefreq>weekly</changefreq>
         <lastmod>2024-04-05</lastmod>
     </url>
     <url>
-        <loc>https://zorglux.fr/about</loc>
+        <loc>https://zorg-luxe.fr/about</loc>
         <changefreq>weekly</changefreq>
         <lastmod>2024-04-05</lastmod>
     </url>
     <url>
-        <loc>https://zorglux.fr/code-of-conduct</loc>
+        <loc>https://zorg-luxe.fr/code-of-conduct</loc>
         <changefreq>weekly</changefreq>
         <lastmod>2024-04-05</lastmod>
     </url>
     <url>
-        <loc>https://zorglux.fr/embassy</loc>
+        <loc>https://zorg-luxe.fr/embassy</loc>
+        <changefreq>weekly</changefreq>
+        <lastmod>2024-04-05</lastmod>
+    </url>
+    <url>
+        <loc>https://zorglux.zorg-luxe.fr/</loc>
+        <changefreq>weekly</changefreq>
+        <lastmod>2024-04-05</lastmod>
+    </url>
+    <url>
+        <loc>https://zorglux.zorg-luxe.fr/mon-compte/orders/</loc>
+        <changefreq>weekly</changefreq>
+        <lastmod>2024-04-05</lastmod>
+    </url>
+    <url>
+        <loc>https://zorglux.zorg-luxe.fr/boutique/</loc>
+        <changefreq>weekly</changefreq>
+        <lastmod>2024-04-05</lastmod>
+    </url>
+    <url>
+        <loc>https://zorglux.zorg-luxe.fr/blog-zorglux/</loc>
+        <changefreq>weekly</changefreq>
+        <lastmod>2024-04-05</lastmod>
+    </url>
+    <url>
+        <loc>https://zorglux.zorg-luxe.fr/a-propos/</loc>
+        <changefreq>weekly</changefreq>
+        <lastmod>2024-04-05</lastmod>
+    </url>
+    <url>
+        <loc>https://zorglux.zorg-luxe.fr/contact/</loc>
         <changefreq>weekly</changefreq>
         <lastmod>2024-04-05</lastmod>
     </url>

@@ -7,7 +7,7 @@ services:
     environment:
       npm_config_cache: /home/node/cache
     working_dir: /home/node/zorglux
-    user: 1000:1000
+    #user: 1000:1000
     command: npm i
 
   builder:
@@ -17,7 +17,7 @@ services:
     environment:
       npm_config_cache: /home/node/cache
     working_dir: /home/node/zorglux
-    user: 1000:1000
+    #user: 1000:1000
     command: npm run build
     depends_on:
       installer:
@@ -30,7 +30,7 @@ services:
     environment:
       npm_config_cache: /home/node/cache
     working_dir: /home/node/zorglux
-    user: 1000:1000
+    #user: 1000:1000
     command: npm run serve
     ports:
       - 7094:7094

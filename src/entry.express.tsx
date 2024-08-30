@@ -20,7 +20,7 @@ import { fileURLToPath } from "node:url";
 import { join } from "node:path";
 
 declare global {
-  interface QwikCityPlatform extends PlatformNode {}
+  interface QwikCityPlatform extends PlatformNode { }
 }
 
 // Directories where the static assets are located
@@ -36,7 +36,7 @@ const { router, notFound } = createQwikCity({
   qwikCityPlan,
   manifest,
   getOrigin() {
-    return "https://zorglux.fr";
+    return "https://zorg-luxe.fr";
   }
 });
 

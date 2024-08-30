@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://zorglux.fr/sitemap.xml
+Sitemap: https://zorg-luxe.fr/sitemap.xml
